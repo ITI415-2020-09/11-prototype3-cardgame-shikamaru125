@@ -15,8 +15,8 @@ public class Prospector : MonoBehaviour {
     public float xOffset = 3;
     public float yOffset = -2.5f;
     public Vector3 layoutCenter;
-    public Vector2 fsPosMid = new Vector2(0.5f, 0.90f);
-    public Vector2 fsPosRun = new Vector2(0.5f, 0.75f);
+    public Vector2 fsPosMid = new Vector2(0.1f, 0.3f);
+    public Vector2 fsPosRun = new Vector2(0.1f, 0.15f);
     public Vector2 fsPosMid2 = new Vector2(0.4f, 1.0f);
     public Vector2 fsPosEnd = new Vector2(0.5f, 0.95f);
     public float reloadDelay = 1f; // The delay between rounds
