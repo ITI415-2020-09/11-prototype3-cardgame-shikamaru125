@@ -376,9 +376,7 @@ public class Prospector : MonoBehaviour {
         {
             return (true);
         }
-        // If one is Ace and the other King, they are adjacent
-        if (c0.rank == 1 && c1.rank == 13) return (true);
-        if (c0.rank == 13 && c1.rank == 1) return (true);
+       
 
         //Otherwise, return false
         return (false);
